@@ -8,5 +8,5 @@ while True:
         if evento.type == quit:
             pygame.quit()
             sys.exit()
-            
+
     pygame.display.update() # todo esto es para cerrar la pestaña
