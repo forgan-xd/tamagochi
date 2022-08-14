@@ -3,6 +3,10 @@ import pygame
 pygame.init
 
 ventana= pygame.display.set_mode((1366,768)) #resolucion
+pygame.display.set_caption("FORGANGOCHI") #titulo
+#Logo
+icon = pygame.image.load('logo ramirez.jpg')
+pygame.display.set_icon(icon)
 
 running = True
 while running:
@@ -11,8 +15,5 @@ while running:
             running = False
     
 
-pygame.display.set_caption("FORGANGOCHI") #titulo
-#Logo
-icon = pygame.image.load('logo ramirez.jpg')
-pygame.display.set_icon(icon)
+
 
