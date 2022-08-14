@@ -1,3 +1,4 @@
 import pygame
 pygame.init
-uwuwsi
+ventana= pygame.display.set_mode((1366,768))
+pygame.display.set_caption("FORGANGOCHI")
